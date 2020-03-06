@@ -7,6 +7,10 @@ import Home from 'pages/Home'
 
 function App() {
   const GlobalStyle = createGlobalStyle`
+    * {
+      box-size: border-box;
+    }
+    
     a {
       text-decoration: none;
     }
